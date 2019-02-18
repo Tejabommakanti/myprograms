@@ -101,7 +101,7 @@ public class Phonecall
 		{
 			System.out.println(ex.getMessage());
 		}
-		//stop appium server
+		//stop appium desktop server 
 		Runtime.getRuntime().exec("taskkill /F /IM node.exe");
         Runtime.getRuntime().exec("taskkill /F /IM cmd.exe");
 	}
