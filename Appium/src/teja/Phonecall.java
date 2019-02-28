@@ -32,7 +32,7 @@ public class Phonecall
 		dc.setCapability("appActivity","com.android.contacts.activities.TwelveKeyDialer");
 		dc.setCapability("noReset","true");
 		//Launch app in ard
-		AndroidDriver driver;
+		AndroidDriver driver; 
 		while(2>1)
 		{
 			try
